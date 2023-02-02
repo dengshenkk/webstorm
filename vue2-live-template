@@ -1,0 +1,30 @@
+<template>
+  <div class="${NAME}-wrap">
+    #[[$END$]]#
+  </div>
+</template>
+
+<script>
+/**
+ * create by ${USER} at ${DATE} ${TIME}
+ */
+export default {
+  name: "${NAME}",
+  props: {},
+  watch: {},
+  data() {
+    return {}
+  },
+  mounted() {
+    this.init()
+  },
+  methods: {
+    init() {}
+  }
+}
+</script>
+
+<style scoped lang="scss">
+.${NAME}-wrap {
+}
+</style>
