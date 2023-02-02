@@ -1,0 +1,36 @@
+<template>
+  <div class="${NAME}-wrap">
+    #[[$END$]]#
+  </div>
+</template>
+
+<script>
+/**
+ * create by ${USER} at ${DATE} ${TIME}
+ */
+export default {
+  name: "${NAME}"
+}
+</script>
+
+<script setup>
+import { onMounted, ref, reactive, useSlots } from "vue";
+
+const props = defineProps({});
+const emits = defineEmits([]);
+const slots = useSlots();
+const state = reactive({});
+const ${NAME}Ref = ref(null);
+onMounted(() => {
+  init();
+});
+
+function init() {
+
+}
+</script>
+
+<style scoped lang="scss">
+.${NAME} {
+}
+</style>
